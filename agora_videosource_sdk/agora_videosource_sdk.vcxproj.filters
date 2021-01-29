@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{1858b888-1de9-4bff-8a64-7eb0b793b184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\libyuv">
+      <UniqueIdentifier>{891037b2-6a20-4457-b7f9-185414bc89b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgoraVideoSource">
+      <UniqueIdentifier>{577685f8-77c4-49fc-a95f-e9b3255aa1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\d3d">
+      <UniqueIdentifier>{edb8b20e-0212-4737-9a1a-8772213b76ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="agora_videosource_sdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ipc_shm.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\node_error.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\node_log.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\node_event.h">
+      <Filter>AgoraVideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\node_process.h">
+      <Filter>AgoraVideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\video_source_ipc.h">
+      <Filter>AgoraVideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="agora_video_source.h">
+      <Filter>AgoraVideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\d3d\D3DRender.h">
+      <Filter>common\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="agora_video_frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="agora_videosource_sdk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\node_log.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\compare.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\compare_common.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\compare_gcc.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\compare_neon.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\compare_neon64.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\compare_win.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\convert.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\convert_argb.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\convert_from.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\convert_from_argb.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\convert_jpeg.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\convert_to_argb.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\convert_to_i420.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\cpu_id.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\mjpeg_decoder.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\mjpeg_validate.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\planar_functions.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\rotate.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\rotate_any.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\rotate_argb.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\rotate_common.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\rotate_gcc.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\rotate_mips.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\rotate_neon.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\rotate_neon64.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\rotate_win.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\row_any.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\row_common.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\row_gcc.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\row_mips.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\row_neon.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\row_neon64.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\row_win.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\scale.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\scale_any.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\scale_argb.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\scale_common.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\scale_gcc.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\scale_mips.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\scale_neon.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\scale_neon64.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\scale_win.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\libyuv\source\video_common.cc">
+      <Filter>common\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\node_event.cpp">
+      <Filter>AgoraVideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\node_process_win.cpp">
+      <Filter>AgoraVideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\video_source_ipc.cpp">
+      <Filter>AgoraVideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="agora_video_source.cpp">
+      <Filter>AgoraVideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\d3d\D3DRender.cpp">
+      <Filter>common\d3d</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="videosource.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

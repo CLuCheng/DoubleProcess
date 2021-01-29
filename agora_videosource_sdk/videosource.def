@@ -1,0 +1,4 @@
+LIBRARY agora_videosource_sdk
+EXPORTS
+    createAgoraVideoSourceEngine @1
+	createAgoraDeviceEngine @2

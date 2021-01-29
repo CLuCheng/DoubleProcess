@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agora_videosource_sdk", "agora_videosource_sdk\agora_videosource_sdk.vcxproj", "{4C2FF8AE-63E2-4F4C-8266-076939624D6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{034D23AC-D6E6-4434-B8A4-CE398FE8817A} = {034D23AC-D6E6-4434-B8A4-CE398FE8817A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoSource", "VideoSource\VideoSource.vcxproj", "{034D23AC-D6E6-4434-B8A4-CE398FE8817A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "demo\demo.vcxproj", "{DE933738-754D-426A-B531-2B5390D213B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{034D23AC-D6E6-4434-B8A4-CE398FE8817A} = {034D23AC-D6E6-4434-B8A4-CE398FE8817A}
+		{4C2FF8AE-63E2-4F4C-8266-076939624D6D} = {4C2FF8AE-63E2-4F4C-8266-076939624D6D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C2FF8AE-63E2-4F4C-8266-076939624D6D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C2FF8AE-63E2-4F4C-8266-076939624D6D}.Debug|Win32.Build.0 = Debug|Win32
+		{4C2FF8AE-63E2-4F4C-8266-076939624D6D}.Release|Win32.ActiveCfg = Release|Win32
+		{4C2FF8AE-63E2-4F4C-8266-076939624D6D}.Release|Win32.Build.0 = Release|Win32
+		{034D23AC-D6E6-4434-B8A4-CE398FE8817A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{034D23AC-D6E6-4434-B8A4-CE398FE8817A}.Debug|Win32.Build.0 = Debug|Win32
+		{034D23AC-D6E6-4434-B8A4-CE398FE8817A}.Release|Win32.ActiveCfg = Release|Win32
+		{034D23AC-D6E6-4434-B8A4-CE398FE8817A}.Release|Win32.Build.0 = Release|Win32
+		{DE933738-754D-426A-B531-2B5390D213B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE933738-754D-426A-B531-2B5390D213B4}.Debug|Win32.Build.0 = Debug|Win32
+		{DE933738-754D-426A-B531-2B5390D213B4}.Release|Win32.ActiveCfg = Release|Win32
+		{DE933738-754D-426A-B531-2B5390D213B4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
